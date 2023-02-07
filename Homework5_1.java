@@ -2,7 +2,6 @@ package Java_Homeworks.Homework5_2023_2;
 /*Реализуйте структуру телефонной книги с помощью HashMap, 
 учитывая, что 1 человек может иметь несколько телефонов.
 */
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -73,7 +72,7 @@ public class Homework5_1{
     public static void PrintPhBk(HashMap<String, String> phBk, ArrayList<String> arrLst) {
         System.out.println("\n\tPHONE BOOK");
         for (String item: arrLst){            
-            System.out.println("\n"+item);
+            System.out.println("\n"+item);      // Printing the phone book
             for (String key :phBk.keySet()) {
                 if (phBk.get(key).equals(item)){
                     System.out.printf("\t - %s \n", key); 
@@ -81,7 +80,4 @@ public class Homework5_1{
             }
         }
     }
-
 }
-
-

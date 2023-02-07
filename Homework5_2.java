@@ -1,13 +1,11 @@
 package Java_Homeworks.Homework5_2023_2;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-
 /*
  * Написать программу, которая найдет и выведет повторяющиеся имена 
  * с количеством повторений. Отсортировать по убыванию популярности Имени.
  */
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
 public class Homework5_2 {
     public static void main(String[] args) {
         HashMap<String, String> names = new HashMap<String, String>();
